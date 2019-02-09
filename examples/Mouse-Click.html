@@ -22,12 +22,14 @@
 <link rel=stylesheet href="css/jquery-ui.css" />
 <link rel=stylesheet href="css/info.css"/>
 <script src="js/info.js"></script>
+<!--
 <div id="infoButton"></div>
 <div id="infoBox" title="Demo Information">
 The color of a face changes to red when you click on it. <br/>
 This three.js demo is part of a collection at
 <a href="http://stemkoski.github.io/Three.js/">http://stemkoski.github.io/Three.js/</a>
 </div>
+-->
 <!-- ------------------------------------------------------------ -->
 
 <div id="ThreeJS" style="position: absolute; left:0px; top:0px"></div>
@@ -82,7 +84,7 @@ function init()
 	stats.domElement.style.position = 'absolute';
 	stats.domElement.style.bottom = '0px';
 	stats.domElement.style.zIndex = 100;
-	container.appendChild( stats.domElement );
+	//container.appendChild( stats.domElement );
 	// LIGHT
 	var light = new THREE.PointLight(0xffffff);
 	light.position.set(0,250,0);
